@@ -37,10 +37,10 @@ puts "Is number_students greater than or equal to 20?", number_students >= 20
 puts "Is number_students greater than or equal to 21?", number_students >= 21
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
-puts "Is number_students less than or equal to 20?" number_students <= 20
+puts "Is number_students less than or equal to 20?", number_students <= 20
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
-puts "Is number_students less than or equal to 21?" number_students <= 21
+puts "Is number_students less than or equal to 21?", number_students <= 21
 
 
 #-------------------
@@ -90,15 +90,15 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+loves_to_play && is_a_puppy
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: It did not evaulate because of an error, since is_a_puppy was an undefined variable.
