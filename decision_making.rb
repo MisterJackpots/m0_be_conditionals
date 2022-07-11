@@ -23,13 +23,13 @@ puts "2. Point it out to the bear?"
 puts "3. Make a dash for the next room?"
 
 if bear_choice == 1
-  "You offer the bear your " + bear_clothing + " and the bear shows you a secret passage out!"
+  puts "You offer the bear your " + bear_clothing + " and the bear shows you a secret passage out!"
 elsif bear_choice == 2
-  "You tell the bear the " + bear_clothing + " is too small and it starts to cry!"
+  puts "You tell the bear the " + bear_clothing + " is too small and it starts to cry!"
 elsif bear_choice == 3
-  "You run as fast as you can into the next room. It's full of snakes!"
+  puts "You run as fast as you can into the next room. It's full of snakes!"
 else
-  "You stay with the bear and become it's best friend!"
+  "You stay with the bear and become its best friend!"
 end
 
 
